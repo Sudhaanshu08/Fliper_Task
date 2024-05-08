@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fliper Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Made By Sudhanshu Sharma</h1>
+        <textarea id="inputText" rows="5" placeholder="Enter text to translate"></textarea>
+        <div class="language-selection">
+            <div>
+                <label for="sourceLang">Source Language:</label>
+                <select id="sourceLang">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="de">German</option>
+                    <option value="it">Italian</option>
+                </select>
+            </div>
+            <div>
+                <label for="targetLang">Target Language:</label>
+                <select id="targetLang">
+                    <option value="en">English</option>
+
+                    <option value="de">German</option>
+                    <option value="it">Italian</option>
+                </select>
+            </div>
+        </div>
+        <button id="translateBtn">Translate</button>
+        <div id="translationResult"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
